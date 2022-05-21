@@ -1,10 +1,33 @@
-public class MemberOfParliament extends Person {
-private String duty;
-private Boolean isChairman;
 
-    public MemberOfParliament(String name, String location, int age, int yearsOfService, String duty, Boolean isChairman) {
+public class MemberOfParliament extends Person {
+    private String duty;
+    private Boolean isChairman;
+
+    public MemberOfParliament(String name, String location, int age, int yearsOfService, String duty,
+            Boolean isChairman) {
         super(name, location, age, yearsOfService);
-        duty = this.duty;
-        isChairman = this.isChairman;
+        this.duty = duty;
+        this.isChairman = isChairman;
     }
+
+    public String getDuty() {
+        return this.duty;
+    }
+
+    public void setDuty(String duty) {
+        this.duty = duty;
+    }
+
+    public Boolean isIsChairman() {
+        return this.isChairman;
+    }
+
+    public Boolean getIsChairman() {
+        return this.isChairman;
+    }
+
+    public void setIsChairman(Boolean isChairman) {
+        this.isChairman = isChairman;
+    }
+
 }
