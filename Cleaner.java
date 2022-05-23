@@ -16,22 +16,12 @@ public class Cleaner extends Person {
         this.accessLevel = accessLevel;
     }
 
-    public Cleaner accessLevel(int accessLevel) {
-        setAccessLevel(accessLevel);
-        return this;
-    }
-
     public String getDuty() {
         return this.duty;
     }
 
     public void setDuty(String duty) {
         this.duty = duty;
-    }
-
-    public Cleaner duty(String duty) {
-        setDuty(duty);
-        return this;
     }
 
 }

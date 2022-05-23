@@ -12,7 +12,7 @@ public class Person {
         this.yearsOfService = yearsOfService;
     }
 
-    // setters and getters    dd
+    // setters and getters
     public String getName() {
         return name;
     }

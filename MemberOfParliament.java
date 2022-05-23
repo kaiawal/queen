@@ -30,4 +30,10 @@ public class MemberOfParliament extends Person {
         this.isChairman = isChairman;
     }
 
+    public void callMeeting() {
+        if (isChairman == true) {
+            System.out.println("A meeting has been called.");
+        }
+    }
+
 }
